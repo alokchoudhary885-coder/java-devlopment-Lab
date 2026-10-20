@@ -1,6 +1,7 @@
 # ShopSphere — Advanced Java Enterprise E-Commerce Management System
 
-> **Rajasthan Technical University (RTU) Advanced Java / Java Enterprise System & Academic Demonstration Suite**
+> **Global Institute of Technology (GIT), Jaipur | Affiliated to Rajasthan Technical University (RTU), Kota**  
+> **Advanced Java Enterprise System & Academic Demonstration Suite (5CS4-24)**
 
 [![Java 21 LTS](https://img.shields.io/badge/Java-21_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/21/)
 [![Jakarta EE 10](https://img.shields.io/badge/Jakarta_EE_10-Servlet_6.1-1572B6?style=for-the-badge)](https://jakarta.ee/)
