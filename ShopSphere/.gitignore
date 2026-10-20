@@ -1,0 +1,42 @@
+# ==============================================================================
+# ShopSphere - Advanced Java Enterprise E-Commerce System
+# ==============================================================================
+
+# Compiled class files
+target/
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Maven wrapper (downloaded binaries)
+.tools/
+.tomcat/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.env
+db.password
+
+# Logs
+*.log
+logs/
+
+# OS files
+Desktop.ini
+ehthumbs.db

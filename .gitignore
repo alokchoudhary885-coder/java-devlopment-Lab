@@ -1,0 +1,66 @@
+# ==============================================================================
+# Java Development Lab & ShopSphere — Git Ignore Configuration
+# ==============================================================================
+
+# Compiled Class Files
+*.class
+*.ctxt
+
+# Build Output Directories
+target/
+build/
+dist/
+out/
+bin/
+
+# Packaging Formats
+*.war
+*.ear
+*.nar
+*.rar
+*.zip
+*.tar.gz
+*.jar
+!experiments/**/lib/*.jar
+
+# Embedded Tomcat & Server Binaries
+.tomcat/
+apache-tomcat-*/
+tomcat/
+
+# Database Binaries & Temporary State
+*.mv.db
+*.trace.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.secret
+*.pem
+*.key
+*.p12
+
+# IDE & Editor Specific Files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.springBeans
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Crash Reports
+*.log
+logs/
+hs_err_pid*
+replay_pid*

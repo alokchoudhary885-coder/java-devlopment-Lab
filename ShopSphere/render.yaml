@@ -1,0 +1,17 @@
+# ==============================================================================
+# ShopSphere — Render Blueprint Specification
+# Free Cloud Web Service Deployment
+# ==============================================================================
+
+services:
+  - type: web
+    name: shopsphere-ecom
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: JAVA_OPTS
+        value: "-Xmx380m -Xms128m"
