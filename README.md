@@ -4,10 +4,14 @@
 [![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-10-F05032?style=for-the-badge&logo=eclipse-ide&logoColor=white)](https://jakarta.ee/)
 [![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-11.0-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black)](https://tomcat.apache.org/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Render](https://img.shields.io/badge/Render-Cloud%20Deploy-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://render.com/)
+[![Render](https://img.shields.io/badge/Render-Live%20Demo-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://shopsphere-qxzf.onrender.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 An exhaustive, end-to-end repository bringing together **Foundational Advanced Java Laboratory Experiments** and a production-grade **Capstone Enterprise E-Commerce Platform (ShopSphere)**.
+
+> 🌐 **Live Cloud Deployment (Render):** [https://shopsphere-qxzf.onrender.com/](https://shopsphere-qxzf.onrender.com/)  
+> * **Storefront & Catalog:** [https://shopsphere-qxzf.onrender.com/ShopSphere/products](https://shopsphere-qxzf.onrender.com/ShopSphere/products)  
+> * **Interactive Educational Portal:** [https://shopsphere-qxzf.onrender.com/ShopSphere/edu/](https://shopsphere-qxzf.onrender.com/ShopSphere/edu/)
 
 ---
 
@@ -267,6 +271,7 @@ ShopSphere features an intelligent, zero-configuration database fallback system:
 * **Zero-Config Fallback (Embedded H2 in MySQL Compatibility Mode):** If no external MySQL server is reachable, `DBConnection` automatically boots an embedded H2 database located at `~/.shopsphere/shopsphere_db`, auto-executes `shopsphere.sql`, and seeds all tables and 88 products with zero manual setup required.
 
 ### Cloud & Containerization
+* **Live Render Deployment:** The enterprise application is containerized and publicly hosted at **[https://shopsphere-qxzf.onrender.com/](https://shopsphere-qxzf.onrender.com/)**.
 * **Multi-Stage Dockerfile:** Compiles the application with OpenJDK 21 and bundles it into `tomcat:11.0-jdk21-temurin`.
 * **Dynamic Port Binding:** Automatically detects Render's dynamic `$PORT` environment variable and binds Tomcat to it.
 * **Blueprint:** Configured via `render.yaml` for instantaneous one-click cloud deployment.

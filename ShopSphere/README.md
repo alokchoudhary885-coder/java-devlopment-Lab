@@ -8,6 +8,11 @@
 [![MySQL 8.4](https://img.shields.io/badge/MySQL-8.4_LTS-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![JUnit 5](https://img.shields.io/badge/Tests-30%20Passed%20(100%25)-22c55e?style=for-the-badge&logo=junit5&logoColor=white)](src/test/)
 [![Build Status](https://img.shields.io/badge/Build-SUCCESS-success?style=for-the-badge)](pom.xml)
+[![Render Live](https://img.shields.io/badge/Render-Live%20Demo-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://shopsphere-qxzf.onrender.com/)
+
+> 🌐 **Live Cloud Deployment (Render):** [https://shopsphere-qxzf.onrender.com/](https://shopsphere-qxzf.onrender.com/)  
+> * **Public Storefront:** [https://shopsphere-qxzf.onrender.com/ShopSphere/products](https://shopsphere-qxzf.onrender.com/ShopSphere/products)  
+> * **RTU Interactive Portal:** [https://shopsphere-qxzf.onrender.com/ShopSphere/edu/](https://shopsphere-qxzf.onrender.com/ShopSphere/edu/)
 
 ---
 
