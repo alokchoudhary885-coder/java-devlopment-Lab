@@ -24,6 +24,7 @@ This repository contains the complete practical implementation, source code, lab
 |:---|:---|
 | **Course Title** | Advanced Java Lab |
 | **Course Code** | **5CS4-24** |
+| **Roll number** | **24EGJCS019** |
 | **Semester** | V Semester (3rd Year B.Tech) |
 | **Branch** | Computer Science & Engineering (CSE) |
 | **University** | Rajasthan Technical University (RTU), Kota |
@@ -195,5 +196,6 @@ Upon completion of this laboratory curriculum, students will be able to:
 * **Primary Repository:** [ShopSphere](https://github.com/alokchoudhary885-coder/ShopSphere)
 * **Laboratory Repository:** [java-devlopment-Lab](https://github.com/alokchoudhary885-coder/java-devlopment-Lab)
 * **Academic Institution:** Rajasthan Technical University (RTU), Kota
+* **Roll Number:**24EGJCS019
 * **Course:** B.Tech CSE — 5th Semester Advanced Java Lab (5CS4-24)
 * **License:** [MIT License](LICENSE)
